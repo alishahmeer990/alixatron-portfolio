@@ -26,9 +26,9 @@ function App() {
     const skills = {
       'minecraft-server': 95,
       'skript-plugins': 90,
-      'discord-bots': 85,
-      'server-admin': 88,
-      'community': 75
+      'discord-bots': 75,
+      'server-admin': 85,
+      'community': 85
     }
     
     setTimeout(() => {
@@ -39,9 +39,9 @@ function App() {
   const projects = [
     {
       id: 1,
-      title: "SurvivalCraft Network",
+      title: "TropicalSMP",
       category: "Minecraft Server",
-      description: "A custom survival server featuring unique economy systems, custom enchantments, and player-driven markets. Built from the ground up with advanced anti-grief protection and community features.",
+      description: "a Minecraft server still stuck in old style configurations, configurated and developed with full dedication.",
       technologies: ["Spigot", "Skript", "MySQL", "WorldGuard"],
       difficulty: "Hard",
       features: ["Custom Economy", "Anti-Grief", "Player Markets", "Custom Enchants"],
@@ -50,10 +50,10 @@ function App() {
     },
     {
       id: 2,
-      title: "MiniGame Hub",
-      category: "Skript Plugin",
-      description: "A comprehensive mini-game system supporting multiple game modes including PvP arenas, parkour challenges, and team-based competitions with automated tournaments.",
-      technologies: ["Skript", "Citizens", "Holographic Displays"],
+      title: "MineForest Chapter 2",
+      category: "Minecraft Server",
+      description: "An Old Server coming back after a long time, Configurated Everything and Created Custom Scripts",
+      technologies: ["Skript", "Koths", "Fancy Holograms"],
       difficulty: "Hard",
       features: ["Multiple Game Modes", "Tournament System", "Leaderboards", "Rewards"],
       github: "#",
@@ -61,45 +61,23 @@ function App() {
     },
     {
       id: 3,
-      title: "ServerSync Bot",
-      category: "Discord Bot",
-      description: "Advanced Discord bot that bridges Minecraft server chat with Discord, provides real-time server status, player statistics, and automated moderation features.",
-      technologies: ["Skript", "Discord API", "JSON"],
-      difficulty: "Medium",
+      title: "MineFuzz Lifesteal",
+      category: "Minecraft Server",
+      description: "Minecraft server of my own, built it with precision and dedication. Players loved the battlepass feature",
+      technologies: ["Skript", "Discord Integration", "Daily Koths", "Precise Config Editing"],
+      difficulty: "Hard",
       features: ["Chat Bridge", "Server Status", "Auto Moderation", "Player Stats"],
       github: "#",
       demo: "#"
     },
     {
       id: 4,
-      title: "RPG Quest System",
-      category: "Skript Plugin",
-      description: "Immersive quest system with branching storylines, custom NPCs, and dynamic rewards. Features a progression system that adapts to player choices and server events.",
-      technologies: ["Skript", "Citizens", "MythicMobs"],
+      title: "Zenith Lifesteal V1",
+      category: "Lifesteal Setup",
+      description: "A meticulously crafted Lifesteal setup built with precision, vibrant colors, and immersive design to deliver a polished, competitive, and unforgettable gameplay experience.",
+      technologies: ["Skript", "FancyNPCs", "AxKoth", "AxAuctions", "Vibrant Colours"],
       difficulty: "Hard",
-      features: ["Branching Quests", "Custom NPCs", "Dynamic Rewards", "Story Progression"],
-      github: "#",
-      demo: "#"
-    },
-    {
-      id: 5,
-      title: "Community Manager Bot",
-      category: "Discord Bot",
-      description: "Comprehensive community management solution with automated welcome systems, role management, event scheduling, and integration with Minecraft server events.",
-      technologies: ["Skript", "Discord API", "Webhooks"],
-      difficulty: "Medium",
-      features: ["Auto Welcome", "Role Management", "Event Scheduling", "Server Integration"],
-      github: "#",
-      demo: "#"
-    },
-    {
-      id: 6,
-      title: "Economy Plus",
-      category: "Skript Plugin",
-      description: "Advanced economy plugin with multiple currencies, stock market simulation, business ownership, and complex trading systems that create a realistic economic environment.",
-      technologies: ["Skript", "Vault", "MySQL"],
-      difficulty: "Hard",
-      features: ["Multi-Currency", "Stock Market", "Business System", "Advanced Trading"],
+      features: ["Skript", "FancyNPCs", "AxKoth", "AxAuctions", "Vibrant Colours"],
       github: "#",
       demo: "#"
     }
@@ -185,14 +163,14 @@ function App() {
           <div className="max-w-4xl mx-auto">
             <div className="minecraft-card">
               <p className="text-lg mb-6 text-card-foreground leading-relaxed">
-                Welcome to my digital workshop! I'm Cew, a passionate Minecraft developer who has been crafting 
-                server experiences and building communities for over 5 years. My journey began with a simple 
-                survival server and has evolved into creating complex, interconnected systems that bring players together.
+                Hi, I am Alixatron, a young minecraft developer, I am currently 14 Years Old. 
+                I am into minecraft configuration since 2023, I have an experience of 3+ Years
+                in Configuration, GUI Creation and Much More!
               </p>
               <p className="text-lg mb-6 text-card-foreground leading-relaxed">
-                My expertise lies in server architecture, where I design and implement scalable solutions that can 
-                handle hundreds of concurrent players while maintaining optimal performance. Through Skript, I've 
-                developed countless plugins that add unique mechanics and features to enhance the player experience.
+                My expertise lies in my all-rounder skills, I work on many types of servers
+                Hub Setups, Lifesteal Setups and Much more. I also integrate minecraft plugins
+                to a discord server!
               </p>
               <p className="text-lg text-card-foreground leading-relaxed">
                 Beyond Minecraft, I bridge communities through Discord bot development, creating seamless integrations 
@@ -361,7 +339,7 @@ function App() {
       <footer className="bg-background border-t-2 border-border py-8">
         <div className="container-custom text-center">
           <p className="text-muted-foreground">
-            © 2024 Cew. Built with ❤️ and lots of redstone.
+            © 2026 Alixatron. Built with ❤️ and lots of redstone.
           </p>
         </div>
       </footer>
