@@ -110,7 +110,7 @@ function App() {
       <nav className="fixed top-0 w-full bg-card/95 backdrop-blur-sm border-b-2 border-border z-50">
         <div className="container-custom">
           <div className="flex items-center justify-between h-16">
-            <div className="text-2xl font-bold text-primary">CEW</div>
+            <div className="text-2xl font-bold text-primary">AlixatronMC</div>
             <div className="hidden md:flex space-x-8">
               <button onClick={() => scrollToSection('home')} className="text-foreground hover:text-primary transition-colors">Home</button>
               <button onClick={() => scrollToSection('about')} className="text-foreground hover:text-primary transition-colors">About</button>
