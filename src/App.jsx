@@ -278,7 +278,7 @@ function App() {
           <h2 className="text-4xl font-bold mb-8 text-foreground">Watch & Learn</h2>
           <div className="minecraft-card max-w-2xl mx-auto">
             <Youtube className="w-16 h-16 text-primary mx-auto mb-6" />
-            <h3 className="text-2xl font-bold mb-4 text-card-foreground">Cew's Dev Tutorials</h3>
+            <h3 className="text-2xl font-bold mb-4 text-card-foreground">Alixatron's Dev Tutorials</h3>
             <p className="text-card-foreground/80 mb-6">
               Join me on YouTube where I share tutorials, server showcases, and development insights. 
               Learn how to create your own plugins, configure servers, and build amazing Minecraft experiences.
@@ -302,19 +302,19 @@ function App() {
                 <div className="space-y-4">
                   <div className="flex items-center">
                     <Mail className="w-5 h-5 text-primary mr-3" />
-                    <span className="text-card-foreground">cew.dev@example.com</span>
+                    <span className="text-card-foreground">alishahmeerwaqar@gmail.com</span>
                   </div>
                   <div className="flex items-center">
                     <Bot className="w-5 h-5 text-primary mr-3" />
-                    <span className="text-card-foreground">Cew#1234</span>
+                    <span className="text-card-foreground">alixatron</span>
                   </div>
                   <div className="flex items-center">
                     <Github className="w-5 h-5 text-primary mr-3" />
-                    <span className="text-card-foreground">github.com/cew-dev</span>
+                    <span className="text-card-foreground">github.com/alishahmeer990</span>
                   </div>
                   <div className="flex items-center">
                     <Youtube className="w-5 h-5 text-primary mr-3" />
-                    <span className="text-card-foreground">Cew's Dev Channel</span>
+                    <span className="text-card-foreground">Alixatron's Dev Channel</span>
                   </div>
                 </div>
               </div>
