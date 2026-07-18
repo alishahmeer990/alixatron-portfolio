@@ -135,7 +135,7 @@ function App() {
             </div>
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground">
-            CEW
+            AlixatronMC
           </h1>
           <h2 className="text-2xl md:text-3xl mb-8 text-muted-foreground">
             Minecraft Developer & Server Architect
