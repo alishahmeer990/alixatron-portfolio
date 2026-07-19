@@ -24,11 +24,11 @@ function App() {
   useEffect(() => {
     // Animate skill progress bars on load
     const skills = {
-      'minecraft-server': 95,
-      'skript-plugins': 90,
+      'blockgameserver-management': 95,
+      'minecraft-configuration': 95,
       'discord-bots': 75,
-      'server-admin': 85,
-      'community': 85
+      'logo-design': 85,
+      'ai-knowledge': 85
     }
     
     setTimeout(() => {
@@ -52,8 +52,8 @@ function App() {
       id: 2,
       title: "MineForest Chapter 2",
       category: "Minecraft Server",
-      description: "An Old Server coming back after a long time, Configurated Everything and Created Custom Scripts",
-      technologies: ["Skript", "Koths", "Fancy Holograms"],
+      description: "An Old Server coming back after a long time, Management was broken, created a new management system and grew it.",
+      technologies: ["Skript", "Ingame", "Discord Bot"],
       difficulty: "Hard",
       features: ["Multiple Game Modes", "Tournament System", "Leaderboards", "Rewards"],
       github: "#",
