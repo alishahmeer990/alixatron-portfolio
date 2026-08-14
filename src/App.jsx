@@ -83,13 +83,33 @@ function App() {
     }
   ]
 
-  const skills = [
-    { name: "Minecraft Server Configuration", level: skillProgress['minecraft-server'] || 0, icon: Server },
-    { name: "Skript Plugin Development", level: skillProgress['skript-plugins'] || 0, icon: Code },
-    { name: "Discord Bot Development", level: skillProgress['discord-bots'] || 0, icon: Bot },
-    { name: "Server Administration", level: skillProgress['server-admin'] || 0, icon: Wrench },
-    { name: "Community Management", level: skillProgress['community'] || 0, icon: Users }
-  ]
+const skills = [
+  {
+    name: "Minecraft Server Configuration",
+    level: skillProgress["minecraft-configuration"] || 90,
+    icon: Server,
+  },
+  {
+    name: "Discord Bot Development",
+    level: skillProgress["discord-bots"] || 75,
+    icon: Bot,
+  },
+  {
+    name: "Logo Design",
+    level: skillProgress["logo-design"] || 75,
+    icon: Code,
+  },
+  {
+    name: "AI Knowledge",
+    level: skillProgress["ai-knowledge"] || 80,
+    icon: Wrench,
+  },
+  {
+    name: "Block Game Server Management",
+    level: skillProgress["blockgameserver-management"] || 85,
+    icon: Users,
+  },
+]
 
   const getDifficultyColor = (difficulty) => {
     switch (difficulty) {
