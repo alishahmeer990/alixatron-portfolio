@@ -91,7 +91,7 @@ function App() {
       features: ["Skript", "FancyNPCs", "AxKoth", "AxAuctions", "Vibrant Colours"],
       github: "#",
       demo: "#"
-    }
+    },
   ]
 
 const skills = [
