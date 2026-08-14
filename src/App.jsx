@@ -81,6 +81,17 @@ function App() {
       github: "#",
       demo: "#"
     }
+    {
+      id: 4,
+      title: "MineClash Shop Survival",
+      category: "Server Setup",
+      description: "A meticulously crafted Shop Survival setup built with precision, vibrant colors, and immersive design to deliver a polished, competitive, and unforgettable gameplay experience.",
+      technologies: ["Skript", "FancyNPCs", "AxKoth", "AxAuctions", "Vibrant Colours"],
+      difficulty: "Hard",
+      features: ["Skript", "FancyNPCs", "AxKoth", "AxAuctions", "Vibrant Colours"],
+      github: "#",
+      demo: "#"
+    }
   ]
 
 const skills = [
